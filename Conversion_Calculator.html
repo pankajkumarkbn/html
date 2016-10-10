@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Conversion Calculator</title>
+<link rel="stylesheet" href="business.css" type="text/css" />
+<script type = 'text/javascript' src = 'ConversionCal.js'></script>
+<style>
+h3 {text-decoration:underline;}
+</style>
+</head>
+<body>
+<center>
+<div class = "header">
+    <h1><em><u>Conversion Calculator</u></em></h1>
+</div>
+
+<div class = "block">
+<br /><br /><br />
+<section class = "block1">
+<label><b><em>Select Measurement&nbsp;:</em></b></label>
+ <select id="Select1" name="D1" onchange="populate()">
+            <option id =  "option1" value = "Length">Length</option>
+            <option id =  "option2"  value = "Volume">Volume</option>
+            <option id =  "option3"  value = "Area">Area</option>
+</select><br /><br />
+</section>
+<section class = "block2">
+ <p>
+         <label><b><em>Enter Value &amp; Unit&nbsp; : </em></b></label>
+          <input id="Num1" type="text" style = "text-align:center"/> <select id="Select2" name="D1">
+            <option id =  "option4" value = "Feet">Feet</option>
+            <option id =  "option5"  value = "Meters">Meters</option>
+            <option id =  "option6"  value = "Miles">Miles</option>
+         </select><br /><br />
+         </section>
+         <section class = "block3">
+           <input id="Button1" type="button" value="Convert" style = "text-align:center" onclick ="Convert()"><br /><br />
+           <input id="Num2" type="text" /><label id="Output1"></label><br /><br />
+          <input id="Num3" type="text" /><label id="Output2"></label><br/>
+</section>
+      </p>
+      
+
+
+</div>
+<a href="file:///C:/Users/Mohini/Desktop/DWP/Lab4/Lab4_Mohini_Modi/Calculator_Home.html#"><em>Click here for Calculator Homepage</em>
+    </center>
+</body>
+</html>
